@@ -42,4 +42,4 @@
   - 还有......
 ***
 ### 界面预览
-在线演示：[http://demo.pizyds.xyz/LuckyDraw/index.html](http://demo.pizyds.xyz/LuckyDraw/index.html)
+~~在线演示：[http://demo.pizyds.xyz/LuckyDraw/index.html](http://demo.pizyds.xyz/LuckyDraw/index.html)~~
