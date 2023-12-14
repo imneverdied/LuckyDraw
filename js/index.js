@@ -57,7 +57,7 @@ $(function () {
             //熏置未中奖人员名单
             remainPerson = allPerson.toString().split(";");
             //中奖人数框置空
-            $("#txtNum").val("").attr("placeholder", "请输入中奖人数");
+            $("#txtNum").val("2");
             $("#showName").val("");
             //隐藏中奖名单,然后显示抽奖框
             $("#result").fadeOut("normal",function(){
