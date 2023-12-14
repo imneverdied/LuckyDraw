@@ -6,7 +6,7 @@
 $(function () {
     if (setAutoZoom) {
         //alert("hello!world!");
-        zoom();
+       
         /*
         document.addEventListener("fullscreenchange", zoom);
         document.addEventListener("mozfullscreenchange", zoom);
@@ -19,7 +19,7 @@ $(function () {
 
 $(window).resize(function(){
     if (setAutoZoom) {
-        zoom();
+       
         }
     });
 
