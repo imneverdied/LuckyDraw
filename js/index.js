@@ -43,8 +43,7 @@ $(function () {
             $("#luckyDrawing").fadeOut();
             clearInterval(timer);//停止输入框动画展示
             $("#luckyDrawing").val(luckyMan[luckyMan.length - 1]);//输入框显示最后一个中奖名字
-            $("#result").fadeIn().find("div").removeClass();//隐藏输入框，显示中奖框
-            $("#result").html("<div><font size=\"20\"> "+ luckyDrawNum+"</font></div>");
+            $("#result").fadeIn().find("div").removeClass().addClass("p" + luckyDrawNum);//隐藏输入框，显示中奖框
             $("#bgLuckyDrawEnd").addClass("bg");//添加中奖背景光辉
             $("#txtNum").attr("placeholder", "輸入抽獎人數(" + remainPerson.length + ")");
             $("#btnStart").text("開始"+"　（剩下"+remainPerson.length+"人）");//设置按钮文本为开始
