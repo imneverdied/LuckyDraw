@@ -40,6 +40,4 @@
   - 开始按钮后显示剩余人数
   - 添加一个“准备就绪”文字（改了好多诶）
   - 还有......
-***
-### 界面预览
-~~在线演示：[http://demo.pizyds.xyz/LuckyDraw/index.html](http://demo.pizyds.xyz/LuckyDraw/index.html)~~
+
